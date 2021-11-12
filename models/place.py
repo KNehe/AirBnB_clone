@@ -7,7 +7,7 @@ Inherits from BaseModel
 from models.base_model import BaseModel
 
 
-class Palce(BaseModel):
+class Place(BaseModel):
     """
     Public class attributes
         city_id: string - empty string: it will be the City.id
