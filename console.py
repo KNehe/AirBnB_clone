@@ -109,7 +109,7 @@ class HBNBCommand(cmd.Cmd):
             for k, v in all_instances.items():
                 if line == v.__class__.__name__:
                     key = line + "." + str(v.id)
-                    objs.append(all_instances[key])
+                    objs.append(str(all_instances[key]))
             print(objs)
         else:
             self.perror(2)
