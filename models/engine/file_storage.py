@@ -7,6 +7,11 @@ of instances to and from json
 import json
 from models.base_model import BaseModel
 from models.user import User
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
 
 
 class FileStorage():
@@ -57,8 +62,6 @@ class FileStorage():
             for obj in dict_objs.values():
                 # Pick the classname
                 class_name = obj["__class__"]
-                # attribute should not be passed to __init__()
-                del obj["__class__"]
                 # recreate class using eval() and
                 # expand obj dictionary to pass all key, value
                 # pairs to the __init__() of the class i.e class_name
