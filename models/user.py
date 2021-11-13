@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """
+Module user.py
+Represents a User
 Class User that inherits from BaseModel
 """
 

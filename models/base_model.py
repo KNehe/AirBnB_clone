@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-
-"""This class model defines all common attributes/methods for other classes"""
+"""
+Module base_model
+This class model defines all
+common attributes/methods for other classes
+"""
 
 import models
 from uuid import uuid4
@@ -8,9 +11,22 @@ from datetime import datetime
 
 
 class BaseModel:
-    """defines attributes"""
+    """
+    Defines attributes
+    required by the base model
+    Attributes
+        __init__(self, *args, **kwargs)
+        __str__(self)
+        save(self)
+        to_dict(self)
+    """
 
     def __init__(self, *args, **kwargs):
+        """
+        Handles initialization of the base model
+        Takes args anf kwargs
+        id should be a uuid of type str
+        """
         if kwargs:
             for key, value in kwargs.items():
                 if key == "created_at":
