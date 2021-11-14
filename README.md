@@ -46,10 +46,28 @@ EOF  help  quit
 $
 ```
 
+## Functionalities of the consonle
+
+`quit:` Quit command to exit the program
+
+`EOF:` method to EOF to exit with (CTRL + D)
+
+`empyline:` an empty line + ENTER shouldn’t execute anything
+
+`create:` Create a new object (ex: a new User or a new Place)
+
+`show:` Prints the string representation of an instance based on the class name and id.
+
+`destroy:` Deletes an instance based on the class name and id
+
+`all:` Prints all string representation of all instances based or not on the class name.
+
+`update:` Update attributes of an object
+
 ## File Descriptions
 
 `AUTHORS` - Lists all individuals having contributed content to the repository
  
- Nehemiah Kamolu <a href="kamolunehemiah@gmail.com/">Gmail/<a>
+ Nehemiah Kamolu <a href="https://github.com/KNehe/">Github/</a>
  
- Gedion Saiyuah <a href="gedionsaiyuah@gmail.com/">Gmail</a>
+ Gedion Saiyuah <a href="https://github.com/Sairikei/">Github</a>
