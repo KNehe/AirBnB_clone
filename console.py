@@ -157,6 +157,32 @@ class HBNBCommand(cmd.Cmd):
         elif code == 6:
             print("** value missing **")
 
+    def default(self, line):
+        """
+        Used to handle commands for which there us no
+        'do_xxx' methods
+        In this case commands such as
+            Object.all()
+        """
+        if len(line) == 0:
+            return
+        # Separate class from command
+        data = line.split('.')
+        # Pick the class
+        cls = data[0]
+        if cls in HBNBCommand.valid_classes:
+            if len(data) == 2:
+                if data[1] == "all()":
+                    HBNBCommand.do_all(self, cls)
+                if str(data[1])[:4] == "show":
+                    obj_id = data[1][6:-2]
+                    arg = str(cls) + " " + str(obj_id)
+                    HBNBCommand.do_show(self, arg)
+                if str(data[1])[:7] == "destroy":
+                    obj_id = data[1][9:-2]
+                    arg = str(cls) + " " + str(obj_id)
+                    HBNBCommand.do_destroy(self, arg)
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
