@@ -49,5 +49,5 @@ $
 ## File Descriptions
 
 `AUTHORS` - Lists all individuals having contributed content to the repository
-Nehemiah Kamolu <kamolunehemiah@gmail.com>
-Gedion Saiyuah <gedionsaiyuah@gmail.com>
+ Nehemiah Kamolu <kamolunehemiah@gmail.com> 
+ Gedion Saiyuah <gedionsaiyuah@gmail.com>
