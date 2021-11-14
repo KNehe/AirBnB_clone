@@ -50,6 +50,6 @@ $
 
 `AUTHORS` - Lists all individuals having contributed content to the repository
  
- Nehemiah Kamolu <a href="#" "kamolunehemiah@gmail.com/">Gmail/<a>
+ Nehemiah Kamolu <a href="kamolunehemiah@gmail.com/">Gmail/<a>
  
  Gedion Saiyuah <a href="gedionsaiyuah@gmail.com/">Gmail</a>
