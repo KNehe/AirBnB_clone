@@ -52,4 +52,4 @@ $
  
  Nehemiah Kamolu <a href="kamolunehemiah@gmail.com/">Gmail</a>
  
- Gedion Saiyuah <gedionsaiyuah@gmail.com>
+ Gedion Saiyuah <a href="gedionsaiyuah@gmail.com/">Gmail</a>
