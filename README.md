@@ -46,10 +46,17 @@ EOF  help  quit
 $
 ```
 
-## File Descriptions
+## Directory and File Descriptions
 
-`AUTHORS` - Lists all individuals having contributed content to the repository
- 
- Nehemiah Kamolu <a href="kamolunehemiah@gmail.com/">Gmail/<a>
- 
- Gedion Saiyuah <a href="gedionsaiyuah@gmail.com/">Gmail</a>
+`models` - Contains models used in Airbnb.
+
+`models/engine/file_storage.py` - Used to serialize and deserialize python objects to and from a json file.
+
+`models/base_model.py` - Base class from which other models inherit. Has methods to convert an object to
+a dictionary and save it to the storage engine.
+
+`models/city.py, amenity.py, place.py, review.py, state.py, user.py` - These are the different entities that inherit from `base_model.py` and are used each for a different purpose as their name suggests. More information is provided in each module.
+
+`console.py` - It is the command line interpreter from which commands are initiated to perform CRUD operations on the above mentioned models.
+
+`AUTHORS` - Lists all individuals having contributed content to the repository.
