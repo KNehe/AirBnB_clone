@@ -46,6 +46,25 @@ EOF  help  quit
 $
 ```
 
+## Functions of the consonle
+
+`quit:` Quit command to exit the program
+
+`EOF:` method to EOF to exit with (CTRL + D)
+
+`empyline:` an empty line + ENTER shouldn’t execute anything
+
+`create:` Create a new object (ex: a new User or a new Place)
+
+`show:` Prints the string representation of an instance based on the class name and id.
+
+`destroy:` Deletes an instance based on the class name and id
+
+`all:` Prints all string representation of all instances based or not on the class name.
+
+`update:` Update attributes of an object
+
+
 ## Directory and File Descriptions
 
 `models` - Contains models used in Airbnb.
