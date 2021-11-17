@@ -68,6 +68,3 @@ class FileStorage():
                 self.new(eval(class_name)(**obj))
         except FileNotFoundError:
             pass
-
-if __name__ == "__main__":
-    unittest.main()
