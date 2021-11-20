@@ -1,7 +1,8 @@
 .places {
-	position: absolute;
-	left:0;
-	top:0;
+	text-align: center;
+}
+.places  > h1 {
+	text-align: left !important;
 	font-size: 30px;
 }
 .places article {
@@ -10,8 +11,13 @@
 	margin: 20px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
+	display: inline-block;
+	place-self: center;
+}
+article:first-of-type {
+	display: inline-block;
 }
 .places article > h2 {
 	font-size: 30px;
-	margin: 0 auto;
+	text-align: center;
 }

@@ -51,6 +51,8 @@ cursor: pointer;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	list-style-type: none;
+	z-index: 10;
+	position: relative;
 }
 .locations:hover .popover, .amenities:hover .popover {
 	display: block;
